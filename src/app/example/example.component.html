@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 [ngStyle]="{ color: color }">{{ title }}</h1>
+
+  <div class="content">
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+      placeholder="Input color here"
+      [(ngModel)]="inputText"
+    />
+    <button type="button" (click)="changeColor()">Click Me!</button>
+  </div>
+</div>

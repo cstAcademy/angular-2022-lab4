@@ -1,0 +1,33 @@
+.container {
+  margin: 50px;
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .content {
+    input {
+      margin-right: 5px;
+      font-size: 14px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #d1d1d1;
+    }
+
+    button {
+      font-size: 17px;
+      background-color: #53a2cc;
+      color: white;
+      border: 1px solid #53a2cc;
+      border-radius: 5px;
+      padding: 2px 7px;
+
+      &:hover {
+        background-color: #e8f0fd;
+        border: 1px solid gray;
+        color: gray;
+        cursor: pointer;
+      }
+    }
+  }
+}
